@@ -1,0 +1,16 @@
+.magnet {
+  width: 100px;
+  height: 15px;
+  background: linear-gradient(90deg, #F00 50%, #00f 50%);
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  place-items: center;
+}
+
+body {
+  height: calc(100dvh - 16px);
+}
